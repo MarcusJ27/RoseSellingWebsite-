@@ -110,8 +110,6 @@ body {
     height: 700px; 
 }
 
-
-
 .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     max-width: 350px;
@@ -143,33 +141,31 @@ body {
     opacity: 0.7;
   }
 
-
-
 .popup {
     display: none;
     position: fixed;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: #FAF9F6; /* Match the background color of the page */
+    background-color: #FAF9F6; 
     padding: 20px;
     border: 2px solid #ccc;
     z-index: 9999;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
     border-radius: 20px;
 }
 
 .popup h2 {
-    color: #fb95c8; /* Match the color scheme */
+    color: #fb95c8; 
 }
 
 .popup p {
-    color: #333; /* Match the color scheme */
+    color: #333; 
 }
 
 .popup button {
-    background-color: #fb95c8; /* Match the button color */
-    color: white; /* Text color */
+    background-color: #fb95c8; 
+    color: white; 
     border: none;
     outline: none;
     padding: 10px 20px;
@@ -191,7 +187,6 @@ body {
     background-color: rgba(0, 0, 0, 0.5);
     z-index: 9998;
 }
-
 
 table {
     border-collapse: collapse;
